@@ -1,0 +1,321 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0"> 
+	<title>My Portfolio</title> 
+	<link rel="stylesheet"
+		href= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+		integrity= 
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+	<link rel="stylesheet" href="style.css"> 
+	<link rel="stylesheet" href="responsive.css"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy8sZ3j6t8GD2sM2fFkW+JdTE7R5E7TdcN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-jN2LTaHxkDCvBkLqJfZ4C6xWZ6r4rr3/1zY1D1sAX0qOGpD1Q9g/CNng1INIdgq94ImDoC+3zmpT3ErZvQapDDw==" crossorigin="anonymous" />
+
+</head> 
+
+<body> 
+	<!-- Navbar header section -->
+	<header class="header"> 
+		<nav class="navbar"> 
+			<div class="logo"> 
+				<h2 class="logo-heading">Priyal</h2> 
+			</div> 
+			<div class="menu"> 
+				<ul class="menu-list"> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#home"> 
+							Home 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#about"> 
+							About 
+						</a> 
+					</li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#skills"> 
+							Skills
+						</a> 
+					</li> 
+                    <li class="menu-list-items"> 
+                        <a class="links" href="#portfolio"> 
+                              Projects 
+                          </a> 
+                    </li> 
+					<li class="menu-list-items"> 
+						<a class="links" href="#contact"> 
+							Contact Me 
+						</a> 
+					</li> 
+				</ul> 
+			</div> 
+		</nav> 
+	</header> 
+
+	<!-- Main hero banner -->
+	<section id="home" class="hero">
+		<div class="intro">
+			<div class="headings">
+				<h3 class="greet-heading">Hello, I'm</h3>
+				<h1 class="my-heading">Priyal Porwal</h1>
+				<h4>
+					A Learning front-end developer,<br> with basic knowledge of HTML, CSS, and JS.
+				</h4>
+			</div>
+			<div class="intro-buttons">
+				<!-- GitHub Icon and Link -->
+				<a href="https://github.com/priyal1015" target="_blank" class="btn ghost-btn">
+					<i class="fab fa-github"></i>
+				</a>
+				<!-- LinkedIn Icon and Link -->
+				<a href="https://www.linkedin.com/in/priyal-porwal-86898b26a/" target="_blank" class="btn ghost-btn">
+					<i class="fab fa-linkedin"></i>
+				</a>
+				<!-- Download Resume Button -->
+				<button class="btn ghost-btn">Download Resume</button>
+			</div>
+		</div>
+	</section>
+	
+	<!-- About Section -->
+	<section id="about" class="about"> 
+		<div class="about-text"> 
+			<h1 class="my-heading">About Me</h1> 
+			<p class="lead-para"> 
+				I'm passionate about the ever-evolving world of frontend development. Armed with a solid foundation in HTML, CSS, and JavaScript, I'm on an exciting journey to master the art of crafting user-friendly and visually appealing web interfaces. My curiosity doesn't stop there – I also dabble in Python and SQL, adding a dynamic edge to my skill set. Join me as I navigate the vast landscape of code, constantly learning and pushing the boundaries of what's possible in the digital realm. Let's build something remarkable together!
+			</p> 
+		</div> 
+		<div class="about-image"> 
+			<img src="about me.png" alt="About Image"> 
+		</div> 
+	</section> 
+
+	<!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio"> 
+        <div class="portfolio-heading"> 
+            <h1 class="my-heading text-center">Some Of My Projects</h1> 
+        </div> 
+        <div class="portfolio-content"> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="python.png" alt="python Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">GUI's</h3> 
+                        <p class="small-para blue-text">Developed GUI's using python Tkinter.<br>The GUI's include a language translator, To do List, <br>
+                        Calculator and a You Tube video downloader </p>
+                        <button class="btn repo-btn" onclick="window.location.href='https://github.com/priyal1015/python_codes';">View GitHub Repo</button>
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="quiz.png"  alt="websiteImage"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Quiz website 
+                          </h3> 
+                        <p class="small-para blue-text">Developed a very basic quiz website<br> using HTML5, CSS and JS. Applied<br> some transitions to make it user friendly.</p> 
+                        <button class="btn repo-btn" onclick="window.location.href='https://github.com/priyal1015/Quiz';">View GitHub Repo</button>
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="weather app.png" alt="Weather Application Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text">Weather Application</h3> 
+                        <p class="small-para blue-text">Created this responsive Application using JavaScript<br>The website provides temperature,humidity and wind<br>of the entered city.</p>
+                        <button class="btn repo-btn" onclick="window.location.href='https://github.com/priyal1015/Ace_Academy_Project_JS';">View GitHub Repo</button> 
+                    </div> 
+                </div> 
+            </div> 
+            <div class="my-row"> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="ChatGpt clone.jpeg" alt="ChatGpt Clone Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              ChatGpt Clone
+                          </h3> 
+                        <p class="small-para blue-text">Created the Clone of ChatGpt AI using JavaScript.<br>Works Exactly like ChatGpt</p>
+                        <button class="btn repo-btn" onclick="window.location.href='https://github.com/priyal1015/ChatGPT_clone';">View GitHub Repo</button> 
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="password.jpg" alt="Password Generator Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Password Generator
+                          </h3> 
+                        <p class="small-para blue-text"> 
+                              Password Generator using JavaScript.<br>Generates Password, has a copy option also <br>which copies it to clipboard. 
+                          </p> 
+                          <button class="btn repo-btn" onclick="window.location.href='https://github.com/priyal1015/javascript_projects/tree/main/JavaScript-Boilerplate-main/password-generator-boilerplate';">View GitHub Repo</button>
+                    </div> 
+                </div> 
+                <div class="my-col"> 
+                    <div class="my-card port-card"> 
+                        <div class="image"> 
+                            <img src="drum kit.jpeg" alt="Drum Kit Image"> 
+                        </div> 
+                        <h3 class="greet-heading blue-text"> 
+                              Drum Kit
+                          </h3> 
+                        <p class="small-para blue-text">Created using JavaScript.<br>One is able to play various sounds<br> in the Drum Kit</p> 
+                        <button class="btn repo-btn" onclick="window.location.href='https://github.com/priyal1015/javascript_projects/tree/main/JavaScript-Boilerplate-main/Drum%20Kit%20Boilerplate';">View GitHub Repo</button>
+                    </div> 
+                </div> 
+            </div> 
+        </div> 
+    </section> 
+
+	<!-- Skills Section -->
+	<section class="skills" id="skills">
+		<div class="skills-heading">
+			<h1 class="my-heading text-center">My Skills</h1>
+		</div>
+		<div class="skills-content">
+			<div class="my-row">
+				<div class="my-col">
+					<div class="my-card">
+						<div class="icon">
+							<i class="fab fa-html5"></i>
+						</div>
+						<h3 class="greet-heading blue-text">HTML</h3>
+						<p class="small-para">
+							Proficient in creating structured and semantic web content using HTML.
+						</p>
+					</div>
+				</div>
+				<div class="my-col">
+					<div class="my-card">
+						<div class="icon">
+							<i class="fab fa-css3"></i>
+						</div>
+						<h3 class="greet-heading blue-text">CSS</h3>
+						<p class="small-para">
+							Skilled in styling web pages and creating visually appealing layouts using CSS.
+						</p>
+					</div>
+				</div>
+				<div class="my-col">
+					<div class="my-card">
+						<div class="icon">
+							<i class="fab fa-js"></i>
+						</div>
+						<h3 class="greet-heading blue-text">JavaScript</h3>
+						<p class="small-para">
+							Proficient in building interactive and dynamic user interfaces using JavaScript.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="my-row">
+				<div class="my-col">
+					<div class="my-card">
+						<div class="icon">
+							<i class="fab fa-python"></i>
+						</div>
+						<h3 class="greet-heading blue-text">Python</h3>
+						<p class="small-para">
+							Knowledgeable in Python, familiar with libraries like pandas, numpy, seaborn, matplotlib and modules like Tkinter for GUI development.
+						</p>
+					</div>
+				</div>
+				<div class="my-col">
+					<div class="my-card">
+						<div class="icon">
+							<i class="fas fa-database"></i>
+						</div>
+						<h3 class="greet-heading blue-text">SQL</h3>
+						<p class="small-para">
+							Proficient in database design and management using SQL for efficient data organization and retrieval.
+						</p>
+					</div>
+				</div>
+				<div class="my-col">
+					<div class="my-card">
+						<div class="icon">
+							<i class="fas fa-code"></i>
+						</div>
+						<h3 class="greet-heading blue-text">C, C++, Java Basics</h3>
+						<p class="small-para">
+							Integrated knowledge of foundational concepts in C, C++, and Java programming languages.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Contact me section -->
+<section class="contact" id="contact">
+    <div class="contact-heading">
+        <h1 class="my-heading text-center">Contact Me</h1>
+    </div>
+    <div class="contact-content">
+        <div class="contact-form-container">
+            <h1 class="greet-heading">Get In Touch</h1>
+            <form class="contact-form">
+                <input class="form-controls" type="text" placeholder="Your Name">
+                <input class="form-controls" type="text" placeholder="Your Email">
+                <input class="form-controls" type="text" placeholder="Your Phone">
+                <textarea class="form-controls" placeholder="Write your message" name="message" id="" cols="30"
+                    rows="10"></textarea>
+                <input class="form-btn btn common-btn" type="submit" value="Send Message">
+            </form>
+        </div>
+        <div class="contact-details">
+            <h1 class="greet-heading">My Contact Details</h1>
+            <div class="details">
+                <h5 class="contact-heading">EMAIL</h5>
+                <p class="contact-text">
+                    <i class="fas fa-envelope contact-icon"></i>
+                    <a href="mailto:Priyalporwal21@gmail.com" class="contact-link">Priyalporwal21@gmail.com</a>
+                </p>
+            </div>
+            <div class="details">
+                <h5 class="contact-heading">PHONE</h5>
+                <p class="contact-text">
+                    <i class="fas fa-phone contact-icon"></i>
+                    +91 8319931641
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+	<!-- Footer section -->
+	<footer class="footer"> 
+		<div class="footer-content text-center"> 
+			<h4> 
+				Copyright © 2023 All rights reserved | 
+				This portfolio website is created 
+				by Priyal Porwal. 
+			</h4> 
+			</div> 
+		</div> 
+	</footer> 
+
+	<script src= 
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+		integrity= 
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"> 
+	</script> 
+	<script src="script.js"></script> 
+</body> 
+
+</html>
